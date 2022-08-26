@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-clustering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:pm2": "pm2 start ecosystem.config.js",
+    "stop:pm2": "pm2 stop ecosystem.config.js",
+    "restart:pm2": "pm2 restart ecosystem.config.js",
+    "reload:pm2": "pm2 reload ecosystem.config.js",
+    "delete:pm2": "pm2 delete ecosystem.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "loadtest": "^5.2.0",
+    "pm2": "^5.2.0"
+  }
+}
